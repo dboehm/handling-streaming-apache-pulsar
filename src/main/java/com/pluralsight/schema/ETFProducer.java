@@ -22,35 +22,3 @@ public class ETFProducer {
 		System.out.println("Messages sent!\n");
 	}
 }
-
-class ETF {
-
-	private String date;
-	private String price;
-
-	public ETF(String inputDate, String inputPrice) {
-		date=inputDate;
-		price=inputPrice;
-	}
-
-	public ETF() {
-		date="2010-01-01";
-		price="100";
-	}
-
-	public String getDate() {
-		return date;
-	}
-
-	public void setDate(String date) {
-		this.date = date;
-	}
-
-	public String getPrice() {
-		return price;
-	}
-
-	public void setPrice(String price) {
-		this.price = price;
-	}
-}
